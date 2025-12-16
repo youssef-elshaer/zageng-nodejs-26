@@ -1,0 +1,10 @@
+;;
+let x = 8;
+++x;
+console.log(x);
+x++;
+console.log(x);
+--x;
+console.log(x);
+x--;
+console.log(x);
