@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Student Manager</title>
+  </head>
+  <body>
+    <h2>Student Management</h2>
+    <input type="text" id="name" placeholder="Student Name" />
+    <input type="number" id="age" placeholder="Student Age" />
+    <input type="text" id="grade" placeholder="Student Grade" />
+
+    <br /><br />
+    <button onclick="addStudent()">Add Student</button>
+    <button onclick="saveToJSON()">Save to JSON</button>
+    <button onclick="loadFromJSON()">Load from JSON</button>
+
+    <h3>Students List:</h3>
+    <ul id="studentList"></ul>
+
+    <h3>JSON Output:</h3>
+    <textarea id="jsonOutput" rows="6" cols="50"></textarea>
+
+    <script src="script.js"></script>
+  </body>
+</html>
